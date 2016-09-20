@@ -1,5 +1,15 @@
-package prob3;
+package prob3;//재구성(리팩토링)
 
 public class Unit {
+	// 현재 위치
+	private int x;
+	private int y;
 
+	void move(int x, int y) {
+		/* 지정된 위치로 이동 */
+	}
+
+	void stop() {
+		/* 현재 위치에 정지 */
+	}
 }
